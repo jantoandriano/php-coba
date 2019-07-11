@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './Navbar/Navbar';
-// import Headers from './Headers/Headers'
-// import Products from './Products/Products';
+import Products from './Products/Products';
+import Headers from './Headers/Headers'
 // import Footer from './Footer/Footer';
 
 
@@ -11,9 +11,8 @@ export default class Main extends Component {
         return (
             <div>
                 <Navbar/>
-                {/* <Headers/>
+                <Headers/>
                 <Products/>
-                <Footer/> */}
             </div>
         );
     }

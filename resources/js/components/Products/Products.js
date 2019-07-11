@@ -1,12 +1,37 @@
 import React, { Component } from 'react'
-import ProductDetails from '../ProductDetails/ProductDetails';
+import ProductCard from '../ProductCard/ProductCard';
 
 export default class Products extends Component {
     render() {
         return (
-            <div>
-                <h3>Products components</h3>
-                <ProductDetails/>
+            <div className='container mt-4'>
+                <h3>Products Component</h3>
+                <div className='row'>
+                    <ProductCard
+                        product_title='Product Title'
+                        product_desc='Some quick example text to build on the card title and make up the bulk of the card contents'
+                    />
+                    <ProductCard 
+                        product_title='Product Title'
+                        product_desc='Some quick example text to build on the card title and make up the bulk of the card contents'
+                    />
+                    <ProductCard 
+                        product_title='Product Title'
+                        product_desc='Some quick example text to build on the card title and make up the bulk of the card contents'
+                    />
+                    <ProductCard
+                        product_title='Product Title'
+                        product_desc='Some quick example text to build on the card title and make up the bulk of the card contents'
+                    />
+                    <ProductCard 
+                        product_title='Product Title'
+                        product_desc='Some quick example text to build on the card title and make up the bulk of the card contents'
+                    />
+                    <ProductCard 
+                        product_title='Product Title'
+                        product_desc='Some quick example text to build on the card title and make up the bulk of the card contents'
+                    />
+                </div>
             </div>
         )
     }
