@@ -6293,6 +6293,25 @@ exports.push([module.i, ".nav-title {\n  background-color: antiquewhite;\n  padd
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/ProductCard/productcard.scss":
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/lib/loader.js??ref--7-3!./resources/js/components/ProductCard/productcard.scss ***!
+  \***************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".border-rounded {\n  border-radius: 1.1em;\n}\n\n.card-body {\n  padding-top: 7.5rem;\n}\n\n.card {\n  width: 18rem;\n  height: 21.5rem;\n}\n\n.col-sm {\n  margin: 0;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/lib/css-base.js":
 /*!*************************************************!*\
   !*** ./node_modules/css-loader/lib/css-base.js ***!
@@ -62297,17 +62316,17 @@ __webpack_require__.r(__webpack_exports__);
 
 function Headers() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "jumbotron bg-info"
+    className: "jumbotron bg-info mt-5"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    "class": "display-4 text-white"
+    className: "display-4 text-white"
   }, "Hello, I'm Janto!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    "class": "lead text-white"
+    className: "lead text-white"
   }, "This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-white"
   }, "It uses utility classes for typography and spacing to space content out within the larger container "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    "class": "btn btn-light btn-lg",
+    className: "btn btn-light btn-lg",
     href: "#",
     role: "button"
   }, "Learn more"))));
@@ -62439,12 +62458,12 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-        "class": "navbar navbar-expand-lg navbar-light bg-light"
+        className: "navbar navbar-expand-lg navbar-light bg-light fixed-top"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        "class": "navbar-brand",
+        className: "navbar-brand",
         href: "#"
       }, "LOGO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        "class": "navbar-toggler",
+        className: "navbar-toggler",
         type: "button",
         "data-toggle": "collapse",
         "data-target": "#navbarSupportedContent",
@@ -62452,21 +62471,21 @@ function (_Component) {
         "aria-expanded": "false",
         "aria-label": "Toggle navigation"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        "class": "navbar-toggler-icon"
+        className: "navbar-toggler-icon"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        "class": "collapse navbar-collapse",
+        className: "collapse navbar-collapse",
         id: "navbarSupportedContent"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        "class": "nav mr-auto"
+        className: "nav mr-auto"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        "class": "nav-item"
+        className: "nav-item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        "class": "nav-link text-dark",
+        className: "nav-link text-dark",
         href: "#"
       }, "Sign Up")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        "class": "nav-item"
+        className: "nav-item"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        "class": "nav-link text-dark",
+        className: "nav-link text-dark",
         href: "#"
       }, "Log In"))))));
     }
@@ -62521,29 +62540,60 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ProductCard; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _productcard_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./productcard.scss */ "./resources/js/components/ProductCard/productcard.scss");
+/* harmony import */ var _productcard_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_productcard_scss__WEBPACK_IMPORTED_MODULE_1__);
+
 
 function ProductCard(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container col-sm mt-4"
+    className: "container col-sm mt-4 p-0"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "card",
-    style: {
-      width: '18rem'
-    }
+    className: "card border-rounded shadow"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    "class": "card-img-top",
+    src: "/public/img/house-1.jpg",
+    className: "card-img-top",
     alt: "..."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "card-body"
+    className: "card-body"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
-    "class": "card-title text-info"
+    className: "card-title text-info"
   }, props.product_title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    "class": "card-text"
+    className: "card-text"
   }, props.product_desc), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#",
-    "class": "btn btn-dark"
+    className: "btn btn-sm btn-dark"
   }, "Details"))));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/ProductCard/productcard.scss":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/ProductCard/productcard.scss ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/lib/loader.js??ref--7-3!./productcard.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./resources/js/components/ProductCard/productcard.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
